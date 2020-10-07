@@ -18,4 +18,9 @@ def Show::least_popular_show
     Show.order(rating: :desc).last
 end
 
+
+def Show::rating_sum
+    Show.sum(:rating)
+end
+
 end
