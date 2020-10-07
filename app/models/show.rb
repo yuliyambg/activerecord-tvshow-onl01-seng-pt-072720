@@ -14,5 +14,5 @@ def Show::most_popular_show
     Show.order(rating: :desc).first
 end
 
-d
+def Show::
 end
