@@ -24,7 +24,7 @@ def Show::ratings_sum
 end
 
 def Show::popular_shows
-    Show.where(:rating > 5)
+    Show.where("rating > 5")
 end
 
 end
